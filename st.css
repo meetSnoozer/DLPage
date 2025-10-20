@@ -2,6 +2,7 @@
     
     min-height: 50vh;
     background:url("../assets/dots1.jpg") no-repeat top;
+    z-index:1;
     background-size: cover;
     position: relative;
     width: 95vw;
