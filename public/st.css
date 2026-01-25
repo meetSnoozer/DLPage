@@ -6,6 +6,14 @@
     position: relative;
     width: 95vw;
 }
+.top-container{
+    display: flex;
+    flex-direction: row;
+    right: 0px;
+    position: absolute;
+    align-items: center;
+
+}
 .color-overlay{
     width: 100%;
     height: 100%;
@@ -33,6 +41,27 @@
     }
 .top-welcome{
     color: white;
+}
+.nav-item a:hover {
+    color: lightblue;
+}
+.signin-button{
+    color: white;
+    padding-right: 10vw;
+    padding-top: 1.2vh;
+    margin-left: 3vw;
+}
+.signin-button a{
+    background-color: white;
+    padding: 1vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+  border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    
+    border-style: solid;
+    border-color: white;
 }
 .navbar.shrink {
 
@@ -67,8 +96,8 @@
 width: 100%;
 display: grid;
 grid-template-columns: auto auto auto;
-grid-gap: 20px;
-padding: 10px;
+grid-gap: 2vw;
+padding: 1vw;
 }
 .gallery img{
     width: 60vw;
@@ -103,7 +132,16 @@ padding: 10px;
 @media(max-width:991px){
     .page-opt li a{
         color: black;
+        
     }
+    .page-opt li a:hover{
+        color: black;
+        color: darkgrey;
+    }
+    .top-container{
+        margin-left: 0vw;
+    }
+
 }
 .descTxt{
     height: 200px;

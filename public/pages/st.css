@@ -1,0 +1,156 @@
+.wrapper{
+    
+    min-height: 50vh;
+    
+    background-size: cover;
+    position: relative;
+    width: 95vw;
+}
+.top-container{
+    display: flex;
+    flex-direction: row;
+    right: 0px;
+    position: absolute;
+    align-items: center;
+
+}
+.color-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .2);
+
+    flex-direction: column;
+}
+.page-opt ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.page-opt li{
+    float: left;
+}
+.page-opt li a{
+    color: white;
+    display: block;
+    color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+    }
+.top-welcome{
+    color: white;
+}
+.nav-item a:hover {
+    color: lightblue;
+}
+.signin-button{
+    color: white;
+    padding-right: 10vw;
+    padding-top: 1.2vh;
+    margin-left: 3vw;
+}
+.signin-button a{
+    background-color: white;
+    padding: 1vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+  border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    
+    border-style: solid;
+    border-color: white;
+}
+.navbar.shrink {
+
+    min-height: 48px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 1px 0 0 #dadada;
+    padding: 0px;
+    height: 5vh;
+    transition: 1s;
+}
+.navbar:hover{
+    background-color: rgb(32, 32, 32);
+    transition: 1s ease-in-out;
+}
+.navbar{
+    width: 100%;
+
+    box-shadow: 0 1px 0 0 #dadada;
+    position: fixed;
+    display: flex;
+    left: 0px;
+    transition: .5s ease-in-out;
+    background-color: rgb(32, 32, 32); color: white; position: sticky; top: 0; z-index: 1;
+
+}
+.gallery{
+    width: 90vw;
+    display: flex;
+    overflow-x: scroll;
+}
+.gallery div{
+width: 100%;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-gap: 2vw;
+padding: 1vw;
+}
+.gallery img{
+    width: 60vw;
+}
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+.midTxt{
+    width: 80vw;
+    margin: auto;
+    padding: 5vh;
+}
+.foota{
+    bottom: 0;
+    height: 100px;
+    background-color:  rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+
+    
+}
+.fText{
+    color: whitesmoke;
+    margin-left: 5vw;
+}
+@media (max-width: 768px){
+    .masthead{
+        min-height: 30vh;
+    }
+ 
+}
+@media(max-width:991px){
+    .page-opt li a{
+        color: black;
+        
+    }
+    .page-opt li a:hover{
+        color: black;
+        color: darkgrey;
+    }
+    .top-container{
+        margin-left: 0vw;
+    }
+
+}
+.descTxt{
+    height: 200px;
+}
+.igTxt{
+        width: 100%;
+    height: 100%;
+
+   
+
+    flex-direction: column;
+}

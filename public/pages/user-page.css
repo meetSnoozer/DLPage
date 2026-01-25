@@ -1,0 +1,308 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.spacer div{
+    height: 10vh;
+}
+.signup{
+    padding-top: 15px;
+    color: whitesmoke;
+}
+.signup a{
+    color: aqua;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 24, 24);
+    min-height: 100vh;
+}
+.login-field p{
+    color: whitesmoke;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+.login-field input{
+    border-radius: 5px;
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    color: whitesmoke;
+    padding: 5px;
+    border: none;
+
+}
+
+.login-btn{
+    display: block;
+    width: 100%;
+}
+.login-field{
+    width: 20vw;
+    min-width: 400px;
+}
+.wrapper{
+    
+    min-height: 50vh;
+    
+    background-size: cover;
+    position: relative;
+    width: 95vw;
+}
+
+.page-opt{
+    list-style: none;
+}
+.page-opt li{
+text-decoration: none;
+min-height: 50px;
+}
+.page-opt li a{
+    color: white;
+  text-align: center;
+
+  text-decoration: none;
+
+    }
+.top-welcome{
+    color: white;
+}
+.offcanvas{
+    background-color: rgb(39, 39, 39);
+    height: 35vh;
+    min-height: 300px;
+    border-radius: 30px;
+    padding: 0;
+
+}
+.offcanvas .off-head{
+    background-color: rgb(17, 17, 17);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+
+}
+.nav-item a:hover {
+    color: lightblue;
+}
+.signin-button{
+    color: white;
+    padding-right: 10vw;
+    padding-top: 1.2vh;
+    margin-left: 3vw;
+}
+.signin-button a{
+    background-color: white;
+    padding: 1vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+  border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    
+    border-style: solid;
+    border-color: white;
+}
+.navbar.shrink {
+
+    min-height: 48px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 1px 0 0 #dadada;
+    padding: 0px;
+    height: 5vh;
+    transition: 1s;
+}
+.navbar:hover{
+    background-color: rgb(32, 32, 32);
+    transition: 1s ease-in-out;
+}
+.navbar{
+    width: 100%;
+
+    box-shadow: 0 1px 0 0 #dadada;
+    position: fixed;
+    display: flex;
+    left: 0px;
+    transition: .5s ease-in-out;
+    background-color: rgb(32, 32, 32); color: white; position: sticky; top: 0; z-index: 1;
+
+}
+.navbar .top-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    right: 3vw;
+}
+
+.foota{
+    bottom: 0;
+    height: 100px;
+    background-color:  rgb(35, 35, 35);
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    
+}
+.fText{
+    color: whitesmoke;
+    margin-left: 5vw;
+}
+.PageLabel{
+    color: whitesmoke;
+    margin: 50px;
+}
+.side-nav{
+    background-color: rgb(40, 40, 40);
+    width: 20vw;
+    height: 40vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-radius: 20px;
+    padding: 0;
+}
+.side-nav .side-header{
+    width: inherit;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(10,10,10);
+}
+.top-description-container{
+    
+    padding: 20px;
+    width: 100%;
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+}
+.top-inner-container{
+    
+padding-top: 30px;
+    padding-bottom: 0;
+    margin: 0;
+    margin: 0;
+    width: 100%;
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+height: 13%;
+}
+.top-inner-container p{
+    padding-left: 15px;
+}
+.top-description{
+    margin: 3%;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #000;
+    background-color: rgb(119, 119, 119);
+}
+.top-inner-label{
+    margin:0;
+    height: 1%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #000;
+    background-color: rgb(119, 119, 119);
+}
+.sales-rundown{
+    background-color: rgb(119, 119, 119);
+    border-radius: 5%;
+    height: 69%;
+    width: 100%;
+}
+.mid-display h1{
+    color: whitesmoke;
+    padding-left: 50px;
+}
+.mid-display h4{
+    color: gray;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.mid-display h5{
+   
+}
+.mid-display .leaderboard-entry{
+color: rgb(151, 151, 151);
+    padding-left: 50px;
+    width: 100%;
+    display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.side-nav h3{
+    color: white;
+}
+.side-list{
+    list-style: none;
+}
+.side-list li{
+    text-decoration: none;
+    margin-top: 30px;
+}
+.side-list li a{
+    color: white;
+    text-decoration: none;
+}   
+.mid-display{
+    background-color: rgb(40, 40, 40);
+    width: 70vw;
+    height: 50vw;
+    margin-left: 1vw;
+    border-radius: 30px;
+}
+@media(max-width:991px){
+    .page-opt{
+        margin-top: 20px;
+    }
+    .offcanvas{
+        --bs-offcanvas-width:30vw;
+        min-width: 300px;
+        height: 30vh;
+        min-height: 250px;
+    }
+    .page-opt li a:hover{
+        color: black;
+        color: rgb(37, 6, 6);
+    }
+    .login-field{
+        width: 40vw;
+        min-width: 300px;
+    }
+    .spacer div{
+        min-height: 12vh;
+    }
+    .signin-button{
+        margin-left: 0vw;
+    }
+}
+@media (max-width: 768px){
+    .offcanvas{
+        --bs-offcanvas-width:50vw;
+        min-width: 0px;
+    }
+    .masthead{
+        min-height: 50vh;
+    }
+    .spacer div{
+        min-height: 15vh;
+    }
+}

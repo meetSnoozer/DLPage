@@ -8,13 +8,36 @@
 
        <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
     <link rel="stylesheet" href="st.css" />
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js">
+        
+    </script>   
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCtDBFbZ9QBhqchyaPVAce145IMPzekYWA",
+    authDomain: "dlpage-e807c.firebaseapp.com",
+    projectId: "dlpage-e807c",
+    storageBucket: "dlpage-e807c.firebasestorage.app",
+    messagingSenderId: "216742989828",
+    appId: "1:216742989828:web:c8193623b5ecc8a1862551"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow" id="navbar">
         <div class="container px-4">
             <a href="index.html" style="color: white; text-decoration: none; padding: 1%;"><h3 id="logo">oddLoopGames</h3></a>
-             <button id = "shabu" type="button" class="navbar-toggler border-0 text-white" data-bs-toggle="offcanvas" aria-controls="top-navbar1" data-bs-target="#top-navbar1" onclick="togel">
+            
+             <div class="top-container">
+<button id = "shabu" type="button" class="navbar-toggler border-0 text-white" data-bs-toggle="offcanvas" aria-controls="top-navbar1" data-bs-target="#top-navbar1" onclick="togel">
                 <i class="lni lni-layers-1"></i>
              </button>
              <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar1" aria-labelledby="top-navbar1Label" >
@@ -26,18 +49,24 @@
                     
              </button>
              <ul class="navbar-nav ms-lg-auto p-4 p-lg-0 page-opt">
-                <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                <li class="nav-item px-4 px-lg-0 py-1 py-lg-4">
                     <a class="nav-link" href="#">About us</a>
                 </li>
-                <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-                    <a class="nav-link" href="pages/dlPage.html">Projects</a>
+                <li class="nav-item px-4 px-lg-0 py-1 py-lg-4">
+                    <a class="nav-link" href="dlPage.html">Projects</a>
                 </li>
-                <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                <li class="nav-item px-4 px-lg-0 py-1 py-lg-4">
                     <a class="nav-link" href="#">Contact us</a>
                 </li>
+
+             </ul>
              </ul>
              </div>
- 
+             
+    <p class="signin-button"><a href="login.html"><strong>Sign In</strong></a></p>
+
+            </div>
+             
         </div>
     </nav>
     
@@ -49,7 +78,7 @@
             <br>
             <br>
             <div>
-                <a href="https://drive.google.com/uc?export=download&id=1OLCDDBSCdGQnT9DG8l4zGJMkQP_ZA1jY">
+                <a href="https://drive.google.com/uc?export=download&id=1QQNDOS_Bm2wlOdeVflpQDH6AMt-I9S5L">
 <button class="btn btn-success btn-lg">Try Out Our Game</button>
             </a>
                 
@@ -71,22 +100,24 @@
         Explore the in-game world of chuchu blahblah revolving around physics concepts and level progressive adventure!
     </h5>
     </div>
-    <div class="gallery">
+   <div class="gallery">
         <div>
-            <span><img src="assets/p1.jpg"></span>
+            <span><img src="gamesample1.png"></span>
         </div>
         <div>
-            <span><img src="assets/p2.jpg"></span>
+            <span><img src="gamesample2.png"></span>
         </div>
         <div>
-            <span><img src="assets/p3.jpg"></span>
+            <span><img src="gamesample3.png"></span>
         </div>
         <div>
-            <span><img src="assets/p4.jpg"></span>
+            <span><img src="gamesample4.png"></span>
         </div>
-        
+        <div>
+            <span><img src="gamesample5.png"></span>
+        </div>
     </div>
-    
+
     </div>
    </div>
    <div class="d-flex justify-content-center align-items-center descTxt">

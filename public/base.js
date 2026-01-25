@@ -1,9 +1,12 @@
 const navbar = document.getElementById("navbar")
 const gallery = document.querySelector(".gallery")
+
 window.addEventListener('scroll',()=>{
     window.scrollY > 10 
     ? navShrink(navbar)
     : navBig(navbar)
+    
+
 })
 gallery.addEventListener("wheel",(e)=>{
     e.preventDefault();
